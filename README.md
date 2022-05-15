@@ -1,26 +1,23 @@
-# To Run
+# Challenge Project: Flashcards
+###### Codecademy Full-Stack Course Exercise
 
 Run `npm start` in the project root and the app will be available on port 3000.
 
-# State
+## Overview
 
-The app's state is totally normalized, with slices for topics, quizzes, and cards.
+Instead of a step-by-step tutorial, this project contains a series of open-ended requirements which describe the project you’ll be building. There are many possible ways to correctly fulfill all of these requirements, and you should expect to use the internet, Codecademy, and other resources when you encounter a problem that you cannot easily solve.
 
-# Routes
+## Project Goals
 
-- `/new-topic` – form to create a new topic
-- `/topics` – index of all topics
-- `/topics/:topicId` – page for an individual topic
-- `/new-quiz` – form to create a new quiz
-- `/quizzes` – index of all quizzes
-- `/quizzes/:quizId` – page for an individual quiz
+In this project, you will practice using Redux and Redux Toolkit to manage the complex state of a flashcard-style quiz app. Users will be able to create their own topics, quizzes for those topics, and flashcards for those quizzes. Users will also be able to interact with their quizzes by flipping flashcards over.
 
-# To Test
+The following task descriptions will walk through implementing the app’s Redux logic starting with topics, then quizzes, and then cards. If you would like to implement it in a different order feel free to do what is comfortable for you.
 
-1. Create topics
-2. Create quizzes
-3. Visit the page for an individual quiz and flip the cards over
+## Tools
 
-# Questions
+- React
+- react-router-dom
+- react-dom
+- react-redux
+- @reduxjs/toolkit
 
-Is this appropriately scoped? Does it have too many features? Too few?

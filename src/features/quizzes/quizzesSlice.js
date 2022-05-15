@@ -1,8 +1,8 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
+import { createSlice } from '@reduxjs/toolkit'
 import { addQuizId } from '../topics/topicsSlice'
 
 export const matchIds = quiz => {
-    const { quizId, name, topicId, cardsIds } = quiz;
+    const { quizId, topicId } = quiz;
     return (dispatch) => {
         dispatch(quizzesSlice.actions.addQuiz(quiz));
         dispatch(addQuizId( { quizId: quizId, topicId: topicId } ));

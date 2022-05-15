@@ -5,13 +5,7 @@ import { useSelector } from 'react-redux'
 
 export default function Quizzes() {
   const quizzes = useSelector(selectQuizzes); // replace this with a call to your selector to get all the quizzes in state
-  console.log('this is quizzes')
-  console.log(quizzes)
-  Object.values(quizzes).map(quiz => {
-      console.log('this is a single quizz:')
-      console.log(quiz.name)
 
-  })
   return (
     <section className="center">
       <h1>Quizzes</h1>

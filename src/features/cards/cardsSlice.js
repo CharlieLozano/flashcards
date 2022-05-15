@@ -1,6 +1,4 @@
-import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { addQuizId } from '../topics/topicsSlice'
-
+import { createSlice } from '@reduxjs/toolkit'
 
 export const cardsSlice = createSlice({
     name: 'quizzes',
